@@ -445,7 +445,6 @@
                 0% {
                     opacity: 0;
                 }
-
                 100% {
                     opacity: 1;
                 }
@@ -1964,10 +1963,6 @@
                 width: 1px;
                 word-wrap: normal !important;
             }
-
-            #top .span_9>.slide-out-widget-area-toggle{
-                display: block !important;
-            }
         </style>
         <link rel="stylesheet" id="salient-child-style-css" href="assets/css/style_1.css" type="text/css" media="all">
         <link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="https://fonts.googleapis.com/css?family=SF+Pro+Display%3A400%2C300%2C500%2C700%7CCastoro%3A400&amp;display=swap&amp;ver=1670386933" type="text/css" media="all">
@@ -2048,7 +2043,17 @@
                                     <div class="nectar-mobile-only mobile-header">
                                         <div class="inner"></div>
                                     </div>
-                                    <div class="slide-out-widget-area-toggle mobile-icon slide-out-from-right" data-custom-color="true" data-icon-animation="simple-transform">
+                                    <style>
+                                        .fix-it-felix {
+                                            display: block !important;
+                                        }
+                                        @media (min-width: 1000px) {
+                                            .fix-it-felix {
+                                                display: none !important;
+                                            }
+                                        }
+                                    </style>
+                                    <div class="fix-it-felix slide-out-widget-area-toggle mobile-icon slide-out-from-right" data-custom-color="true" data-icon-animation="simple-transform">
                                         <div>
                                             <a href="#sidewidgetarea" aria-label="Navigation Menu" aria-expanded="false" class="closed">
                                                 <span class="screen-reader-text">Menu</span>
