@@ -20,17 +20,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'SF Pro Display';
-    src: url('../../assets/fonts/sf-pro-display.woff2') format('woff2'), 
-         url('../../assets/fonts/sf-pro-display.woff') format('woff'), 
-         url('../../assets/fonts/sf-pro-display.ttf') format('truetype'), 
-         url('../../assets/fonts/sf-pro-display.otf') format('opentype'), 
-         url('../../assets/fonts/sf-pro-display.eot') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html, body {
     font-family: 'SF Display Pro', sans-serif !important;
 }
